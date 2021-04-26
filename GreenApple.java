@@ -19,8 +19,11 @@ public class GreenApple extends Apple { // subclass for Apple
 		return this.taste;
 	}
 	
-	
+	public double getTotalWeight() {
+		return super.getQuantity()*this.weight;
+	}
 	public String toString() {
-		return super.toString() + "\nWeight: " + weight + "kg" + "\nTaste: " + taste;
+		return super.toString() + "\nWeight: " + weight + "kg" + "\nTaste: " + taste + "\nTotal weight: " + weight + "kg";
 	}
 }
+
