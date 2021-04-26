@@ -5,7 +5,7 @@ public class Fruit { // super class
 	
 		public Fruit (String name) {
 			this.name = name;
-			System.out.println(name + "constructor is invoked.");
+			System.out.println(name + " " + "constructor is invoked.");
 	}
 
 		public String getName() {
@@ -13,6 +13,6 @@ public class Fruit { // super class
 		}
 
 		public String toString() {
-			return name + "have many benefits.";
+			return name + " " + "have many benefits.";
 		}
 }
