@@ -10,6 +10,13 @@ public class Apple extends Fruit { // subclass for fruit
 		this.quantity = q;
 	}
 
+	public double getPrice() {
+		return this.price;
+	}
+	
+	public int getQuantity() {
+		return this.quantity;
+	}
 	
 	public double getTotalPrice() {
 		return this.price*this.quantity;
